@@ -1,5 +1,7 @@
 # PersonalWebsite
 
+This is a website created which showcases some of my personal projects. It also has some information about myself and my career. 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
 ## Development server
