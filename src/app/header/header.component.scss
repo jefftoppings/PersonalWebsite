@@ -16,9 +16,11 @@
 
 .info-container {
   text-align: center;
+  color: #3b4047;
 
   .name {
     font-size: 48px;
+    font-weight: bold;
   }
 
   .contact {
@@ -27,6 +29,7 @@
 
     a {
       cursor: pointer;
+      color: #3b4047;
     }
   }
 }
