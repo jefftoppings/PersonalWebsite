@@ -1,19 +1,31 @@
 .header-container {
-  background: #7eacc4;
+  background: #3b4047;
+  text-align: center;
+  padding: 5px;
+
+  .picture-div {
+    border-radius: 50%;
+    background-image: url("../../assets/images/jeff.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+  }
+}
+
+.info-container {
   text-align: center;
 
   .name {
     font-size: 48px;
-    color: white;
   }
 
   .contact {
     height: 50px;
     line-height: 40px;
-    color: white;
 
     a {
-      color: white;
       cursor: pointer;
     }
   }
