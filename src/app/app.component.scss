@@ -1,6 +1,19 @@
 .page-wrap {
   text-align: center;
-  background: white;
+  background: #3b4047;
   width: 1000px;
   margin: 0 auto 0;
+
+  app-nav-bar {
+    width: 333px;
+    background: #3b4047;
+    display: inline-block;
+    color: white;
+  }
+
+  app-main-container {
+    width: 667px;
+    background: white;
+    display: inline-block;
+  }
 }
