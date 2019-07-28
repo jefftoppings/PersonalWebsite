@@ -1,8 +1,5 @@
-.stripe {
-  background: #3b4047;
-  width: 100%;
-  height: 30px;
-}
+.container {
+  padding-top: 1vw;
 
   .name {
     font-size: 30px;
@@ -10,22 +7,23 @@
     line-height: 50px;
   }
 
-.picture-div {
-  border-radius: 50%;
-  border: 10px solid #3b4047;
-  background-image: url("../../assets/images/jeff.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 200px;
-  width: 200px;
-  margin: 0 auto;
-}
+  .picture-div {
+    border-radius: 50%;
+    border: 10px solid #3b4047;
+    background-image: url("../../assets/images/jeff.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+  }
 
-.info {
-  height: 40px;
-  line-height: 30px;
+  .info {
+    height: 40px;
+    line-height: 30px;
 
-  .info-link {
-    padding: 10px;
+    .info-link {
+      padding: 10px;
+    }
   }
 }
